@@ -1,4 +1,43 @@
-# Meu Projeto
+# Projeto: Python Insights - Análise de Cancelamento de Clientes
+
+## Descrição do Projeto
+
+Este projeto de análise de dados foi desenvolvido para uma empresa com mais de 800 mil clientes que enfrenta desafios relacionados ao cancelamento de serviços. O objetivo é identificar os principais motivos de cancelamento e propor ações eficientes para reduzir essa taxa.
+
+## Base de Dados
+
+A base de dados utilizada está disponível [neste link](https://drive.google.com/drive/folders/1uDesZePdkhiraJmiyeZ-w5tfc8XsNYFZ?usp=drive_link).
+
+## Estrutura do Projeto
+
+- `cancelamentos_sample.csv`: Arquivo contendo os dados de cancelamento.
+- `Notebook_Analise_Cancelamento.ipynb`: Jupyter Notebook com o código de análise.
+- `.github`: Diretório com imagens para documentação.
+
+## Como Executar
+
+1. Instale as dependências necessárias com `pip install -r requirements.txt`.
+2. Execute o Jupyter Notebook `Notebook_Analise_Cancelamento.ipynb`.
+
+## Análise de Dados
+
+### Correção de Dados
+- Remoção da coluna "CustomerID".
+- Tratamento de valores vazios.
+
+### Análise Exploratória
+- Visualização de cancelamentos por diferentes variáveis.
+
+### Estratégias para Redução de Cancelamentos
+- Exclusão de planos mensais.
+- Limitação de ligações no call center.
+- Controle de atrasos de pagamento.
+
+### Resultados
+Após as análises e correções, a taxa de cancelamento foi reduzida de 56% para 18%.
+
+## Resultados e Demonstração
+
 <table>
     <tbody>
         <tr>
@@ -8,14 +47,13 @@
             <td>
                 <img src=".github/img2.png" alt="Demonstração do projeto"  />
             </td>
-          <td>
+            <td>
                 <img src=".github/img3.png" alt="Demonstração do projeto"  />
             </td>
         </tr>
     </tbody>
 </table>
 
-Confira minha publicação mostrando no LinkedIn:
+## Publicação no LinkedIn
 
-[Veja minha publicação sobre o desafio no LinkedIn](https://www.linkedin.com/posts/alex-cavalcanti-198979216_dataanalysis-python-projects-activity-7150848775454875649-SXDD?utm_source=share&utm_medium=member_desktop))
-
+[Veja minha publicação sobre o desafio no LinkedIn](https://www.linkedin.com/posts/alex-cavalcanti-198979216_dataanalysis-python-projects-activity-7150848775454875649-SXDD?utm_source=share&utm_medium=member_desktop)
