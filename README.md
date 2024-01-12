@@ -7,13 +7,11 @@ Este projeto de análise de dados foi desenvolvido para uma empresa com mais de 
 ## Estrutura do Projeto
 
 - `cancelamentos_sample.csv`: Arquivo contendo os dados de cancelamento.
-- `Notebook_Analise_Cancelamento.ipynb`: Jupyter Notebook com o código de análise.
 - `.github`: Diretório com imagens para documentação.
 
 ## Como Executar
 
 1. Instale as dependências necessárias com `pip install -r requirements.txt`.
-2. Execute o Jupyter Notebook `Notebook_Analise_Cancelamento.ipynb`.
 
 ## Análise de Dados
 
