@@ -4,10 +4,6 @@
 
 Este projeto de análise de dados foi desenvolvido para uma empresa com mais de 800 mil clientes que enfrenta desafios relacionados ao cancelamento de serviços. O objetivo é identificar os principais motivos de cancelamento e propor ações eficientes para reduzir essa taxa.
 
-## Base de Dados
-
-A base de dados utilizada está disponível [neste link](https://drive.google.com/drive/folders/1uDesZePdkhiraJmiyeZ-w5tfc8XsNYFZ?usp=drive_link).
-
 ## Estrutura do Projeto
 
 - `cancelamentos_sample.csv`: Arquivo contendo os dados de cancelamento.
